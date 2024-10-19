@@ -1,0 +1,66 @@
+/* src/Calendar.css */
+
+.calendar-container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.emoji-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.emoji-option {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.emoji-option.selected {
+  background-color: #d3d3d3;
+}
+
+.mood-save-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mood-save-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mood-save-container button:hover {
+  background-color: #45a049;
+}
+.tile-😊 {
+  background-color: #f7e469;
+}
+
+.tile-😂 {
+  background-color: #ffdfba;
+}
+
+.tile-😐 {
+  background-color: #d4d4d4;
+}
+
+.tile-😔 {
+  background-color: #89b0ae;
+}
+
+.tile-😢 {
+  background-color: #ffadad;
+}
+
+.tile-😡 {
+  background-color: #ff6161;
+}
